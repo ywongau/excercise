@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>York Wong's Excecise</title>
+    <link href="css/popup.css" rel="stylesheet" />
+    <style>
+        body {
+            height: 800px;
+        }
+        .container {
+            position: absolute;
+            left: 450px;
+            top: 350px;
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="container">
+    </div>
+    <script src="scripts/lib/jquery-1.10.2.js"></script>
+    <script src="scripts/lib/jquery-ui-1.10.4.custom.js"></script>
+    <script src="scripts/popup.js"></script>
+    <script>
+        $(function () {
+            $('.container').popup();
+        });
+    </script>
+</body>
+</html>
